@@ -1,11 +1,11 @@
-
+ï»¿
 using UnityEngine;
 
 namespace Bobo
 {
     public class work : MonoBehaviour
     {
-        [SerializeField,Header("¥Ø¼Ğª«¥ó")]
+        [SerializeField,Header("ç›®æ¨™ç‰©ä»¶")]
         private Transform target;
 
         private void Update()
@@ -13,7 +13,7 @@ namespace Bobo
             LookAtTarget();
         }
         /// <summary>
-        /// ­±¬Û¥Ø¼Ğ
+        /// é¢ç›¸ç›®æ¨™
         /// </summary>
         private void LookAtTarget()
         {
